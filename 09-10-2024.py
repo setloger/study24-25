@@ -4,3 +4,6 @@ for i in range(10):
 a = 2
 b = 5
 print(a+b)
+
+s = 'HelloMyFriend'
+s[1:3]
