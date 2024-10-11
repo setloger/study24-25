@@ -18,3 +18,9 @@ elif n in y:
     print(f'{m:02}.{n-1:02} {m+1:02}.{1:02} ')
 elif n == 1:
     print(f'{m-1:02}.{31:02} {m:02}.{1+1:02} ')
+
+d1, d2 = float(input()), float(input())
+
+d = d1 if d1 > d2 else d2
+
+print(d)
